@@ -1,0 +1,16 @@
+# Ignore PHP config files that might contain sensitive data
+/auth_check.php
+/db_connect.php
+
+# Ignore all log files and temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+*.txt
+*.htaccess
+
+# Ignore environment configuration files
+.env
+
+/img/
